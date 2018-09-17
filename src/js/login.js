@@ -7,8 +7,8 @@ function loginWithFirebase() {
 			let user = firebase.auth().currentUser;
 			localStorage.setItem("user", JSON.stringify(user));
 			console.log("Usuario inició sesión con éxito");
-			window.location = "comentarios.html"
-
+		  window.location = "comentarios.html"
+			
 		})
 		.catch((error) => {
 			let msn = document.getElementById("msnUsuario");
