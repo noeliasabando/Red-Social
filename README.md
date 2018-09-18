@@ -75,4 +75,4 @@ Vegan se sustentará por las recomendaciones de lugares (por medio de geolocaliz
 
 ## Enlace a la red social
 
-[Vegan](https://noeliasabando.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/register.html)
+[Vegan](https://noeliasabando.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/register.html) 
