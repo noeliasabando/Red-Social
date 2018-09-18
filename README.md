@@ -73,6 +73,6 @@ Vegan se sustentará por las recomendaciones de lugares (por medio de geolocaliz
 
 (https://trello.com/b/clasDREa/red-social)
 
-## Enlace a la red social (usando firebase hosting)
+## Enlace a la red social
 
-(https://redsocial-a8990.firebaseapp.com/)
+[Vegan](https://noeliasabando.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/register.html)
