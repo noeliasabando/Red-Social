@@ -23,14 +23,17 @@ function generarDom(post) {
 
     // Crear elementos
     const itemTarea = document.createElement("div");
+    itemTarea.className="col-12 text-center itemTarea"
     const parrafoAutor = document.createElement("h3");
     const autor = document.createTextNode(post.autor);
     const parrafo = document.createElement("p");
+    parrafo.className="col-12 text-center parrafo"
     const textTarea = document.createTextNode(post.mensaje);
     const botonBorrar = document.createElement("button");
     const textBoton = document.createTextNode("x");
     const corazon = document.createElement("h4");
     const contador = document.createTextNode(post.likes);
+    contador.className="col-12 contador"
     const like = document.createElement("i");
 
     // añadir clases a elementos
