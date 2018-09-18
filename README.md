@@ -72,7 +72,7 @@ Vegan se sustentará por las recomendaciones de lugares (por medio de geolocaliz
 
 [Entrevista 5](https://drive.google.com/file/d/1VyH0RyE1rmUUnWNvj285n1kv23kJN3nh/view)
 
-[Entrevista 5](https://drive.google.com/file/d/12oLS1TDOkSh1AhoQeugN3tTnXDEtHjRj/view)
+[Entrevista 6](https://drive.google.com/file/d/12oLS1TDOkSh1AhoQeugN3tTnXDEtHjRj/view)
 
 ## Benchmark
 
