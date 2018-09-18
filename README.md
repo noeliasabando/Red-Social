@@ -4,6 +4,10 @@ A continuación encontrarás una red social creada y pensada para que las person
 
 Esta red social está creada en base a la necesidad de personas veganas, las cuáles fueron identificadas durante el proceso de UX.
 
+## Enlace a la red social
+
+[Vegan](https://noeliasabando.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/register.html) 
+
 ## Etapa de investigación
 
 Durante este proceso, lo primero que se realizó fue una lectura del archivo README, en el cual se encontraban las instrucciones para realizar este proyecto.
@@ -50,29 +54,26 @@ Vegan se sustentará por las recomendaciones de lugares (por medio de geolocaliz
 
 ## Elevator Pitch
 
-(https://docs.google.com/document/d/1TKRLRnSqV3JVRBjVmJD6Doc2LBPx86U5GDhDU0VuL-o)
+[Pitch](https://docs.google.com/document/d/1TKRLRnSqV3JVRBjVmJD6Doc2LBPx86U5GDhDU0VuL-o)
 
 ## Encuesta
 
-(https://docs.google.com/forms/d/131yIkEm4rjGGsC31ZtC6U2RX6LseuH-YmBcoiUabrcw)
+[Encuesta](https://docs.google.com/forms/d/131yIkEm4rjGGsC31ZtC6U2RX6LseuH-YmBcoiUabrcw)
 
 ## Entrevistas (grabaciones)
 
-(https://docs.google.com/document/d/1c2FCdl8ArsLrjdZfGi20LSQV-ML2tAYCrnm4WFNn9mU/edit)
-(https://docs.google.com/document/d/1tovm54iZIgTJwUY9iIEmj5JERTnMk5jDk3lv_5Hpedg/edit
-(https://drive.google.com/file/d/1I4b51qD5AcU9K8wMPB-zPU5JdPwvWP0l/view)
-(https://drive.google.com/file/d/1JyOeVQv6suGrF1jDU9GR9-R8kGI6-_yZ/view)
-(https://drive.google.com/file/d/1VyH0RyE1rmUUnWNvj285n1kv23kJN3nh/view)
-(https://drive.google.com/file/d/12oLS1TDOkSh1AhoQeugN3tTnXDEtHjRj/view)
+[Entrevista](https://docs.google.com/document/d/1c2FCdl8ArsLrjdZfGi20LSQV-ML2tAYCrnm4WFNn9mU/edit)
+[Entrevista](https://docs.google.com/document/d/1tovm54iZIgTJwUY9iIEmj5JERTnMk5jDk3lv_5Hpedg/edit)
+[Entrevista](https://drive.google.com/file/d/1I4b51qD5AcU9K8wMPB-zPU5JdPwvWP0l/view)
+[Entrevista](https://drive.google.com/file/d/1JyOeVQv6suGrF1jDU9GR9-R8kGI6-_yZ/view)
+[Entrevista](https://drive.google.com/file/d/1VyH0RyE1rmUUnWNvj285n1kv23kJN3nh/view)
+[Entrevista](https://drive.google.com/file/d/12oLS1TDOkSh1AhoQeugN3tTnXDEtHjRj/view)
 
 ## Benchmark
 
-(https://docs.google.com/document/d/15FBKS3ixGXDpu21yEGawSYeZcuwE0zlcrEo7bLzD9Uw/edit)
+[Benchmark](https://docs.google.com/document/d/15FBKS3ixGXDpu21yEGawSYeZcuwE0zlcrEo7bLzD9Uw/edit)
 
 ## Enlace Trello (aquí podrás ver como nos organizamos y llevamos a cabo el proyecto)
 
-(https://trello.com/b/clasDREa/red-social)
+[Planificación](https://trello.com/b/clasDREa/red-social)
 
-## Enlace a la red social
-
-[Vegan](https://noeliasabando.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/register.html) 
