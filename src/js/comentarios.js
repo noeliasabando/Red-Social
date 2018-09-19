@@ -43,7 +43,7 @@ function generarDom(post) {
     botonBorrar.addEventListener("click", borrarTarea);
     like.classList.add("fas", "fa-heart", "heart");
 
-    let counter = 0;
+    let counter = post.likes;
     like.addEventListener('click', function(e) {
         like.classList.toggle('red');
         counter++;
