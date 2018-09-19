@@ -6,7 +6,7 @@ Esta red social está creada en base a la necesidad de personas veganas, las cu�
 
 ## Enlace a la red social
 
-[Vegan](https://noeliasabando.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/register.html) 
+[Vegan](https://noeliasabando.github.io/Red-Social/src/register.html) 
 
 ## Etapa de investigación
 
