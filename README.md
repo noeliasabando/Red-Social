@@ -4,6 +4,8 @@ A continuación encontrarás una red social creada y pensada para que las person
 
 Esta red social está creada en base a la necesidad de personas veganas, las cuáles fueron identificadas durante el proceso de UX.
 
+![img proyecto](img/vegan.png)
+
 ## Enlace a la red social
 
 [Vegan](https://noeliasabando.github.io/Red-Social/src/register.html) 

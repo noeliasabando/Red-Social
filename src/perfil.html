@@ -2,134 +2,145 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vegan - Mi perfil</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" href="../src/css/perfil.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-    <link rel="icon" href="../imagenesVegan/favicon.png" type="image/png" sizes="16x16">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Vegan - Mi perfil</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="../src/css/perfil.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+	<link rel="icon" href="../imagenesVegan/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                            <i class="fas fa-bars"></i>
-                    </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-4">
-                    <li class="nav-item mr-3 active">
-                        <a class="nav-link" href="perfil.html">Ver perfil</a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="comentarios.html">Inicio</a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="amigos.html">Amigos</a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" onclick="logoutWithFirebase()" href="../src/login.html">Cerrar sesión</a>
-                    </li>
-                </ul>
-            </div>
-            <img id="logo" src="../imagenesVegan/LogoGris.png">
-        </nav>
-    </header>
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+					<i class="fas fa-bars"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-4">
+					<li class="nav-item mr-3 active">
+						<a class="nav-link" href="perfil.html">Ver perfil</a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link" href="comentarios.html">Inicio</a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link" href="amigos.html">Amigos</a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link" onclick="logoutWithFirebase()" href="../src/login.html">Cerrar sesión</a>
+					</li>
+				</ul>
+			</div>
+			<img id="logo" src="../imagenesVegan/LogoGris.png">
+		</nav>
+	</header>
 
-    <section id="contenedorPerfil">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 text-right">
-                    <img id="usuario" src="../imagenesVegan/Usuaria" alt="usuario">
-                </div>
-                <div class="col-6 text-left" id="datosUsuario">
-                    <p id="datosNombre"></p>
-                    <p id="datosMail"></p>
-                </div>
-                <!-- <div class="col-4"></div> -->
-            </div>
-        </div>
-    </section>
+	<section id="contenedorPerfil">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 text-right">
+					<img id="usuario" src="../imagenesVegan/Usuaria" alt="usuario">
+				</div>
+				<div class="col-6 text-left" id="datosUsuario">
+					<p id="datosNombre"></p>
+					<p id="datosMail"></p>
+				</div>
+				<!-- <div class="col-4"></div> -->
+			</div>
+		</div>
+	</section>
 
-    <section id="contenedorPerfilDos">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-left">
-                    <p class="nombre">Valeria Droguett</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-left">
-                    <p class="publicacion">Comparto con ustedes la receta de mi desayuno durante los fines de semana. ¡Muy rica y nutritiva! Y lo más importante, todos los productos que usé son de <a target="_blank" rel="noopener noreferrer" class="entrar" href="https://www.aldeanativa.cl/">AldeaNativa</a>.</p>
-                    <img id="fotoEjemplo" src="../imagenesVegan/brooke-lark-250695-unsplash.jpg">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <i class="far fa-heart"></i> 21
-                </div>
-                <hr align="left" class="style1">
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    Me gusta <i class="far fa-comment"></i> Comentar
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="contenedorPerfilDos">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-left">
+					<p class="nombre">Valeria Droguett</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-left">
+					<p class="publicacion">Comparto con ustedes la receta de mi desayuno durante los fines de semana. ¡Muy rica y nutritiva! Y lo más importante,
+						todos los productos que usé son de
+						<a target="_blank" rel="noopener noreferrer" class="entrar" href="https://www.aldeanativa.cl/">AldeaNativa</a>.</p>
+					<img id="fotoEjemplo" src="../imagenesVegan/brooke-lark-250695-unsplash.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<i class="far fa-heart"></i> 21
+				</div>
+				<hr align="left" class="style1">
+			</div>
+			<div class="row">
+				<div class="col-12">
+					Me gusta
+					<i class="far fa-comment"></i> Comentar
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <section id="contenedorPerfilDos">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-left">
-                    <p class="nombre">Valeria Droguett</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-left">
-                    <p class="publicacion">Hoy tuve un día hermoso, fui a <a target="_blank" rel="noopener noreferrer" class="entrar" href="https://www.adhana.cl/">Adhana</a>, un lugar de comida vegana exquisita. ¡Full recomendado!.</p>
-                    <img id="fotoEjemplo" src="../imagenesVegan/anna-pelzer-472429-unsplash.jpg">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <i class="far fa-heart"></i> 120
-                </div>
-                <hr align="left" class="style1">
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    Me gusta <i class="far fa-comment"></i> Comentar
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="contenedorPerfilDos">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-left">
+					<p class="nombre">Valeria Droguett</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-left">
+					<p class="publicacion">Hoy tuve un día hermoso, fui a
+						<a target="_blank" rel="noopener noreferrer" class="entrar" href="https://www.adhana.cl/">Adhana</a>, un lugar de comida vegana exquisita. ¡Full recomendado!.</p>
+					<img id="fotoEjemplo" src="../imagenesVegan/anna-pelzer-472429-unsplash.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<i class="far fa-heart"></i> 120
+				</div>
+				<hr align="left" class="style1">
+			</div>
+			<div class="row">
+				<div class="col-12">
+					Me gusta
+					<i class="far fa-comment"></i> Comentar
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+	 crossorigin="anonymous"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyDJkBe_1YurGlSVZgDQzaqfBSzF5yIzqRk",
-            authDomain: "redsocialvegan.firebaseapp.com",
-            databaseURL: "https://redsocialvegan.firebaseio.com",
-            projectId: "redsocialvegan",
-            storageBucket: "",
-            messagingSenderId: "258954224577"
-        };
-        firebase.initializeApp(config);
-    </script>
-    <script src="js/perfil.js"></script>
-    <script src="js/logout.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyDJkBe_1YurGlSVZgDQzaqfBSzF5yIzqRk",
+			authDomain: "redsocialvegan.firebaseapp.com",
+			databaseURL: "https://redsocialvegan.firebaseio.com",
+			projectId: "redsocialvegan",
+			storageBucket: "",
+			messagingSenderId: "258954224577"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script src="js/perfil.js"></script>
+	<script src="js/logout.js"></script>
 </body>
 
 </html>
